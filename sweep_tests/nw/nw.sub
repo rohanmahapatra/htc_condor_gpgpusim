@@ -1,0 +1,42 @@
+# Loosely modeled on the starter submit file here:
+#   http://chtc.cs.wisc.edu/helloworld.shtml
+
+# Type of job we will be running
+universe = vanilla
+
+# Resource requirements we need for this job
+request_cpus = 1
+request_memory = 4GB
+request_disk = 2GB
+
+# Specify the policy for moving files between the execute
+# and submit environments
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# Finally, which files to transfer.  We'll be using CUDA
+# and backprop for this example.
+# NOTE: the gpgpu-sim configuration files are a macro; to be
+# defined later.
+initialdir = SM7_TITANV-results
+transfer_input_files = /home/rmahapatra/projects_tlb/gpgpu-sim-v2_tlb/condor_workdir/benchmarks_hw2/simple_test/cuda_files_tlb.tar.gz, ../needle, ../gpgpusim.config, ../config_volta_islip.icnt
+
+# We do not specify `transfer_output_files`; accordingly *all* files created in the
+# top-level job directory will be copied to the `initialdir` specified above when
+# the job completes.
+
+# For backprop, the argument is the network size; increasing this (must be divisible
+# by 16) will increase the runtime.  The value 8192 should result in a 2 minute runtime.
+arguments = 2048 10
+executable = nw.sh
+
+# Filenames for output; recall this will be put into $(initialdir), not the
+# submit directory.
+output = nw.out
+error = nw.err
+
+# Condor's logging for the job will go to this file.
+log = nw.log
+
+queue 1
+
