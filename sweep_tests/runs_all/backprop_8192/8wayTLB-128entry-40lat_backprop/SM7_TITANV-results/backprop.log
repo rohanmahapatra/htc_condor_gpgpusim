@@ -1,0 +1,43 @@
+000 (183263.000.000) 2019-10-31 02:45:51 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183263.000.000) 2019-10-31 02:47:27 Started transferring input files
+	Transferring to host: <128.105.245.203:9618?addrs=128.105.245.203-9618&alias=e2403.chtc.wisc.edu&noUDP&sock=starter_18456_abe8_30938>
+...
+040 (183263.000.000) 2019-10-31 02:47:32 Finished transferring input files
+...
+001 (183263.000.000) 2019-10-31 02:47:33 Job executing on host: <128.105.245.203:9618?addrs=128.105.245.203-9618&alias=e2403.chtc.wisc.edu&noUDP&sock=startd_2147_3dec_3>
+...
+006 (183263.000.000) 2019-10-31 02:47:43 Image size of job updated: 528
+	1  -  MemoryUsage of job (MB)
+	528  -  ResidentSetSize of job (KB)
+...
+006 (183263.000.000) 2019-10-31 02:52:41 Image size of job updated: 879136
+	852  -  MemoryUsage of job (MB)
+	871480  -  ResidentSetSize of job (KB)
+...
+006 (183263.000.000) 2019-10-31 02:57:41 Image size of job updated: 887452
+	860  -  MemoryUsage of job (MB)
+	879796  -  ResidentSetSize of job (KB)
+...
+040 (183263.000.000) 2019-10-31 03:01:08 Started transferring output files
+...
+040 (183263.000.000) 2019-10-31 03:01:08 Finished transferring output files
+...
+005 (183263.000.000) 2019-10-31 03:01:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:13:19, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:19, Sys 0 00:00:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	257989  -  Run Bytes Sent By Job
+	170838848  -  Run Bytes Received By Job
+	257989  -  Total Bytes Sent By Job
+	170838848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.00        1         1 
+	   Disk (KB)            : 663729     4194304   4545926 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    860        4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T08:01:07Z.
+...

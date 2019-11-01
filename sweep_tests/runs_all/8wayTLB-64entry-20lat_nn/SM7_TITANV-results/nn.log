@@ -1,0 +1,39 @@
+000 (183276.000.000) 2019-10-31 02:45:52 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183276.000.000) 2019-10-31 02:49:29 Started transferring input files
+	Transferring to host: <128.104.55.169:9618?addrs=128.104.55.169-9618+[2607-f388-1086-0-221-28ff-fe40-18e]-9618&alias=e088.chtc.wisc.edu&noUDP&sock=starter_26430_136c_29530>
+...
+040 (183276.000.000) 2019-10-31 02:49:32 Finished transferring input files
+...
+001 (183276.000.000) 2019-10-31 02:49:33 Job executing on host: <128.104.55.169:9618?addrs=128.104.55.169-9618+[2607-f388-1086-0-221-28ff-fe40-18e]-9618&alias=e088.chtc.wisc.edu&noUDP&sock=startd_3785_c60e_3>
+...
+006 (183276.000.000) 2019-10-31 02:49:42 Image size of job updated: 239292
+	226  -  MemoryUsage of job (MB)
+	230448  -  ResidentSetSize of job (KB)
+...
+006 (183276.000.000) 2019-10-31 02:51:06 Image size of job updated: 457600
+	226  -  MemoryUsage of job (MB)
+	230844  -  ResidentSetSize of job (KB)
+...
+040 (183276.000.000) 2019-10-31 02:51:06 Started transferring output files
+...
+040 (183276.000.000) 2019-10-31 02:51:06 Finished transferring output files
+...
+005 (183276.000.000) 2019-10-31 02:51:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:25, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:25, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	133708  -  Run Bytes Sent By Job
+	172906880  -  Run Bytes Received By Job
+	133708  -  Total Bytes Sent By Job
+	172906880  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   665627  3145728   3617780 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      226     3072      3072 
+
+	Job terminated of its own accord at 2019-10-31T07:51:06Z.
+...

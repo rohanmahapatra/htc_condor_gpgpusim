@@ -15,10 +15,12 @@ launchdir=$PWD
 basedir="runs_all"
 
 pids=()
-#declare -a configs=("faTLB-128entry-20lat")
+#declare -a configs=("faTLB-128entry-40lat")
 declare -a configs=("faTLB-128entry-20lat" "faTLB-128entry-40lat" "faTLB-64entry-20lat" "8wayTLB-128entry-20lat" "8wayTLB-128entry-40lat" "8wayTLB-64entry-20lat")
-declare -a benchmarks=("bfs" "backprop" "nw" "nn" "bc" "hotsp" "pagerank")
-#declare -a benchmarks=("pagerank")
+#declare -a configs=("faTLB-128entry-20lat_1")
+#declare -a benchmarks=("bfs" "backprop" "nw" "nn" "bc" "hotsp" "pagerank")
+#declare -a benchmarks=("backprop" "nw" "nn" "bc" "hotsp" "pagerank")
+declare -a benchmarks=("backprop")
 
 for benchmark in ${benchmarks[@]}
 do

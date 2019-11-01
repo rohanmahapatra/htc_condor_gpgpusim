@@ -1,0 +1,59 @@
+000 (183663.000.000) 2019-10-31 17:07:31 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183663.000.000) 2019-10-31 17:12:35 Started transferring input files
+	Transferring to host: <128.105.245.109:9618?addrs=128.105.245.109-9618&alias=e309.chtc.wisc.edu&noUDP&sock=starter_35867_4bcc_19144>
+...
+040 (183663.000.000) 2019-10-31 17:12:38 Finished transferring input files
+...
+001 (183663.000.000) 2019-10-31 17:12:39 Job executing on host: <128.105.245.109:9618?addrs=128.105.245.109-9618&alias=e309.chtc.wisc.edu&noUDP&sock=startd_7111_220c_12>
+...
+006 (183663.000.000) 2019-10-31 17:12:48 Image size of job updated: 311264
+	297  -  MemoryUsage of job (MB)
+	303476  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:17:49 Image size of job updated: 891932
+	864  -  MemoryUsage of job (MB)
+	884144  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:22:50 Image size of job updated: 1055744
+	1024  -  MemoryUsage of job (MB)
+	1047956  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:27:50 Image size of job updated: 1091780
+	1059  -  MemoryUsage of job (MB)
+	1083992  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:32:52 Image size of job updated: 1113032
+	1080  -  MemoryUsage of job (MB)
+	1105244  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:37:53 Image size of job updated: 1146692
+	1113  -  MemoryUsage of job (MB)
+	1138904  -  ResidentSetSize of job (KB)
+...
+006 (183663.000.000) 2019-10-31 17:42:52 Image size of job updated: 1148536
+	1115  -  MemoryUsage of job (MB)
+	1140748  -  ResidentSetSize of job (KB)
+...
+040 (183663.000.000) 2019-10-31 18:18:19 Started transferring output files
+...
+040 (183663.000.000) 2019-10-31 18:18:19 Finished transferring output files
+...
+005 (183663.000.000) 2019-10-31 18:18:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:04:34, Sys 0 00:01:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:04:34, Sys 0 00:01:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	259310  -  Run Bytes Sent By Job
+	170838848  -  Run Bytes Received By Job
+	259310  -  Total Bytes Sent By Job
+	170838848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.00        1         1 
+	   Disk (KB)            : 663732     4194304   4663471 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :   1115        4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T23:18:15Z.
+...

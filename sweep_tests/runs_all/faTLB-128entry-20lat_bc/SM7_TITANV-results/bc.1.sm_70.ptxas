@@ -1,0 +1,25 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z8clean_bcPfi' for 'sm_70'
+ptxas info    : Function properties for _Z8clean_bcPfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 6 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14clean_2d_arrayPii' for 'sm_70'
+ptxas info    : Function properties for _Z14clean_2d_arrayPii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 6 registers, 364 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z14clean_1d_arrayiPiPfS0_i' for 'sm_70'
+ptxas info    : Function properties for _Z14clean_1d_arrayiPiPfS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z15back_sum_kerneliiPiPfS0_i' for 'sm_70'
+ptxas info    : Function properties for _Z15back_sum_kerneliiPiPfS0_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 9 registers, 388 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z16backtrack_kernelPiS_S_PfS0_iiiiS0_' for 'sm_70'
+ptxas info    : Function properties for _Z16backtrack_kernelPiS_S_PfS0_iiiiS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 416 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z10bfs_kernelPiS_S_PfS_iii' for 'sm_70'
+ptxas info    : Function properties for _Z10bfs_kernelPiS_S_PfS_iii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 20 registers, 404 bytes cmem[0]

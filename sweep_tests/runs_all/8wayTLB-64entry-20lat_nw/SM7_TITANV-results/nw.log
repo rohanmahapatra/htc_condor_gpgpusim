@@ -1,0 +1,183 @@
+000 (183270.000.000) 2019-10-31 02:45:51 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183270.000.000) 2019-10-31 02:49:33 Started transferring input files
+	Transferring to host: <128.105.245.153:9618?addrs=128.105.245.153-9618&alias=e2353.chtc.wisc.edu&noUDP&sock=starter_17338_f07a_15687>
+...
+040 (183270.000.000) 2019-10-31 02:49:37 Finished transferring input files
+...
+001 (183270.000.000) 2019-10-31 02:49:38 Job executing on host: <128.105.245.153:9618?addrs=128.105.245.153-9618&alias=e2353.chtc.wisc.edu&noUDP&sock=startd_4648_b849_12>
+...
+006 (183270.000.000) 2019-10-31 02:49:47 Image size of job updated: 205584
+	193  -  MemoryUsage of job (MB)
+	197136  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 02:54:48 Image size of job updated: 287680
+	273  -  MemoryUsage of job (MB)
+	278968  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 02:59:49 Image size of job updated: 294016
+	279  -  MemoryUsage of job (MB)
+	285304  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:04:49 Image size of job updated: 304048
+	289  -  MemoryUsage of job (MB)
+	295336  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:09:50 Image size of job updated: 305368
+	290  -  MemoryUsage of job (MB)
+	296656  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:14:51 Image size of job updated: 307084
+	292  -  MemoryUsage of job (MB)
+	298372  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:19:51 Image size of job updated: 308140
+	293  -  MemoryUsage of job (MB)
+	299428  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:24:52 Image size of job updated: 308536
+	293  -  MemoryUsage of job (MB)
+	299824  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:29:53 Image size of job updated: 308704
+	293  -  MemoryUsage of job (MB)
+	299992  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:34:53 Image size of job updated: 310024
+	295  -  MemoryUsage of job (MB)
+	301312  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:39:54 Image size of job updated: 310684
+	295  -  MemoryUsage of job (MB)
+	301972  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 03:49:55 Image size of job updated: 310948
+	296  -  MemoryUsage of job (MB)
+	302236  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 04:14:58 Image size of job updated: 311212
+	296  -  MemoryUsage of job (MB)
+	302500  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 04:24:58 Image size of job updated: 312004
+	297  -  MemoryUsage of job (MB)
+	303292  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 04:29:59 Image size of job updated: 312400
+	297  -  MemoryUsage of job (MB)
+	303688  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 04:45:00 Image size of job updated: 312664
+	297  -  MemoryUsage of job (MB)
+	303952  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 04:55:01 Image size of job updated: 313716
+	298  -  MemoryUsage of job (MB)
+	305004  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 05:10:03 Image size of job updated: 315168
+	300  -  MemoryUsage of job (MB)
+	306456  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 05:40:05 Image size of job updated: 315656
+	300  -  MemoryUsage of job (MB)
+	306944  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 05:50:06 Image size of job updated: 316448
+	301  -  MemoryUsage of job (MB)
+	307736  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 06:05:08 Image size of job updated: 317240
+	302  -  MemoryUsage of job (MB)
+	308528  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 06:40:12 Image size of job updated: 318440
+	303  -  MemoryUsage of job (MB)
+	309728  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 06:50:12 Image size of job updated: 318704
+	303  -  MemoryUsage of job (MB)
+	309992  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 07:00:13 Image size of job updated: 320948
+	305  -  MemoryUsage of job (MB)
+	312236  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 07:20:15 Image size of job updated: 323720
+	308  -  MemoryUsage of job (MB)
+	315008  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 07:40:16 Image size of job updated: 326492
+	311  -  MemoryUsage of job (MB)
+	317780  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 08:20:20 Image size of job updated: 326668
+	311  -  MemoryUsage of job (MB)
+	317956  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 08:40:22 Image size of job updated: 326912
+	311  -  MemoryUsage of job (MB)
+	318200  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 08:50:24 Image size of job updated: 328232
+	313  -  MemoryUsage of job (MB)
+	319520  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 08:55:24 Image size of job updated: 328760
+	313  -  MemoryUsage of job (MB)
+	320048  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 09:20:27 Image size of job updated: 328932
+	313  -  MemoryUsage of job (MB)
+	320220  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 09:25:27 Image size of job updated: 330820
+	315  -  MemoryUsage of job (MB)
+	322108  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 09:45:28 Image size of job updated: 332896
+	317  -  MemoryUsage of job (MB)
+	324184  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 10:25:33 Image size of job updated: 351508
+	335  -  MemoryUsage of job (MB)
+	342796  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 10:30:33 Image size of job updated: 351584
+	335  -  MemoryUsage of job (MB)
+	342872  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 13:35:52 Image size of job updated: 351660
+	335  -  MemoryUsage of job (MB)
+	342948  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 15:05:58 Image size of job updated: 351764
+	336  -  MemoryUsage of job (MB)
+	343052  -  ResidentSetSize of job (KB)
+...
+006 (183270.000.000) 2019-10-31 16:31:07 Image size of job updated: 351888
+	336  -  MemoryUsage of job (MB)
+	343052  -  ResidentSetSize of job (KB)
+...
+040 (183270.000.000) 2019-10-31 16:37:27 Started transferring output files
+...
+040 (183270.000.000) 2019-10-31 16:37:28 Finished transferring output files
+...
+005 (183270.000.000) 2019-10-31 16:37:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 13:46:49, Sys 0 00:00:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 13:46:49, Sys 0 00:00:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28909106  -  Run Bytes Sent By Job
+	170819040  -  Run Bytes Received By Job
+	28909106  -  Total Bytes Sent By Job
+	170819040  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.00        1         1 
+	   Disk (KB)            : 691689     2097152   2339737 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    336        4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T21:37:27Z.
+...

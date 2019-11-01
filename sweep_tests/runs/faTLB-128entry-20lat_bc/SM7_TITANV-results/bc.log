@@ -1,0 +1,100 @@
+000 (183030.000.000) 2019-10-30 16:22:50 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183030.000.000) 2019-10-30 16:26:32 Started transferring input files
+	Transferring to host: <128.105.245.98:9618?addrs=128.105.245.98-9618&alias=e298.chtc.wisc.edu&noUDP&sock=starter_30579_6bf5_13020>
+...
+040 (183030.000.000) 2019-10-30 16:26:35 Finished transferring input files
+...
+001 (183030.000.000) 2019-10-30 16:26:36 Job executing on host: <128.105.245.98:9618?addrs=128.105.245.98-9618&alias=e298.chtc.wisc.edu&noUDP&sock=startd_10831_be5c_14>
+...
+006 (183030.000.000) 2019-10-30 16:26:45 Image size of job updated: 215544
+	203  -  MemoryUsage of job (MB)
+	206964  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:31:46 Image size of job updated: 292836
+	278  -  MemoryUsage of job (MB)
+	284124  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:36:46 Image size of job updated: 1404408
+	1363  -  MemoryUsage of job (MB)
+	1395696  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:41:46 Image size of job updated: 3629004
+	3536  -  MemoryUsage of job (MB)
+	3620292  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:43:31 Image size of job updated: 4181424
+	4083  -  MemoryUsage of job (MB)
+	4180632  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:45:34 Image size of job updated: 4181556
+	4083  -  MemoryUsage of job (MB)
+	4180632  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:46:59 Image size of job updated: 4181556
+	4083  -  MemoryUsage of job (MB)
+	4180764  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:47:33 Image size of job updated: 4181556
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:47:46 Image size of job updated: 4181688
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:47:47 Image size of job updated: 4181820
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:48:34 Image size of job updated: 4181952
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:48:48 Image size of job updated: 4182084
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:48:49 Image size of job updated: 4182216
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:51:17 Image size of job updated: 4182348
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:51:37 Image size of job updated: 4182480
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:51:59 Image size of job updated: 4182612
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:52:00 Image size of job updated: 4182876
+	4083  -  MemoryUsage of job (MB)
+	4180896  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 16:56:23 Image size of job updated: 4182876
+	4084  -  MemoryUsage of job (MB)
+	4181028  -  ResidentSetSize of job (KB)
+...
+006 (183030.000.000) 2019-10-30 21:13:13 Image size of job updated: 4183008
+	4084  -  MemoryUsage of job (MB)
+	4181028  -  ResidentSetSize of job (KB)
+...
+004 (183030.000.000) 2019-10-31 02:00:34 Job was evicted.
+	(0) CPU times
+		Usr 0 00:15:32, Sys 0 00:07:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	172491216  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   665538  4194304   4658165 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     4084     4096      4096 
+...
+009 (183030.000.000) 2019-10-31 02:00:34 Job was aborted.
+	via condor_rm (by user rmahapatra)
+...

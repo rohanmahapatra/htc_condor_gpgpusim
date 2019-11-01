@@ -1,0 +1,40 @@
+000 (183284.000.000) 2019-10-31 02:45:52 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183284.000.000) 2019-10-31 02:49:33 Started transferring input files
+	Transferring to host: <128.104.58.183:9618?addrs=128.104.58.183-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7543]-9618&alias=e1039.chtc.wisc.edu&noUDP&sock=starter_59127_11fd_35760>
+...
+040 (183284.000.000) 2019-10-31 02:49:38 Finished transferring input files
+...
+001 (183284.000.000) 2019-10-31 02:49:39 Job executing on host: <128.104.58.183:9618?addrs=128.104.58.183-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7543]-9618&alias=e1039.chtc.wisc.edu&noUDP&sock=startd_8341_cf8a_3>
+...
+006 (183284.000.000) 2019-10-31 02:49:51 Image size of job updated: 9688
+	5  -  MemoryUsage of job (MB)
+	4392  -  ResidentSetSize of job (KB)
+...
+006 (183284.000.000) 2019-10-31 02:49:51 Image size of job updated: 24940
+	20  -  MemoryUsage of job (MB)
+	19636  -  ResidentSetSize of job (KB)
+...
+040 (183284.000.000) 2019-10-31 02:49:52 Started transferring output files
+...
+040 (183284.000.000) 2019-10-31 02:49:52 Finished transferring output files
+...
+005 (183284.000.000) 2019-10-31 02:49:52 Job terminated.
+	(0) Abnormal termination (signal 11)
+	(0) No core file
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31521  -  Run Bytes Sent By Job
+	176035312  -  Run Bytes Received By Job
+	31521  -  Total Bytes Sent By Job
+	176035312  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   668583  4194304   4638157 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :       20     4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T07:49:51Z.
+...

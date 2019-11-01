@@ -1,0 +1,36 @@
+000 (183027.000.000) 2019-10-30 16:22:50 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183027.000.000) 2019-10-30 16:26:30 Started transferring input files
+	Transferring to host: <128.105.244.102:9618?addrs=128.105.244.102-9618&alias=e2006.chtc.wisc.edu&noUDP&sock=starter_13886_b16e_32353>
+...
+040 (183027.000.000) 2019-10-30 16:26:34 Finished transferring input files
+...
+001 (183027.000.000) 2019-10-30 16:26:35 Job executing on host: <128.105.244.102:9618?addrs=128.105.244.102-9618&alias=e2006.chtc.wisc.edu&noUDP&sock=startd_6067_092d_3>
+...
+006 (183027.000.000) 2019-10-30 16:26:44 Image size of job updated: 396
+	1  -  MemoryUsage of job (MB)
+	396  -  ResidentSetSize of job (KB)
+...
+006 (183027.000.000) 2019-10-30 16:31:45 Image size of job updated: 2831012
+	2758  -  MemoryUsage of job (MB)
+	2823224  -  ResidentSetSize of job (KB)
+...
+006 (183027.000.000) 2019-10-30 16:36:08 Image size of job updated: 4182036
+	4083  -  MemoryUsage of job (MB)
+	4180980  -  ResidentSetSize of job (KB)
+...
+004 (183027.000.000) 2019-10-31 02:00:34 Job was evicted.
+	(0) CPU times
+		Usr 0 00:08:14, Sys 0 00:01:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	170821728  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   663608  4194304   5792972 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     4083     4096      4096 
+...
+009 (183027.000.000) 2019-10-31 02:00:34 Job was aborted.
+	via condor_rm (by user rmahapatra)
+...

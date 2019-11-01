@@ -1,0 +1,67 @@
+000 (183296.000.000) 2019-10-31 02:59:07 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183296.000.000) 2019-10-31 03:01:12 Started transferring input files
+	Transferring to host: <128.105.245.203:9618?addrs=128.105.245.203-9618&alias=e2403.chtc.wisc.edu&noUDP&sock=starter_18456_abe8_30961>
+...
+040 (183296.000.000) 2019-10-31 03:01:17 Finished transferring input files
+...
+001 (183296.000.000) 2019-10-31 03:01:18 Job executing on host: <128.105.245.203:9618?addrs=128.105.245.203-9618&alias=e2403.chtc.wisc.edu&noUDP&sock=startd_2147_3dec_3>
+...
+006 (183296.000.000) 2019-10-31 03:01:27 Image size of job updated: 528
+	1  -  MemoryUsage of job (MB)
+	528  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:06:27 Image size of job updated: 413192
+	397  -  MemoryUsage of job (MB)
+	405668  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:11:29 Image size of job updated: 419660
+	403  -  MemoryUsage of job (MB)
+	412136  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:16:29 Image size of job updated: 442232
+	425  -  MemoryUsage of job (MB)
+	434708  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:21:30 Image size of job updated: 446324
+	429  -  MemoryUsage of job (MB)
+	438800  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:31:31 Image size of job updated: 447116
+	430  -  MemoryUsage of job (MB)
+	439592  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:36:31 Image size of job updated: 472856
+	455  -  MemoryUsage of job (MB)
+	465332  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:41:31 Image size of job updated: 479720
+	462  -  MemoryUsage of job (MB)
+	472196  -  ResidentSetSize of job (KB)
+...
+006 (183296.000.000) 2019-10-31 03:46:32 Image size of job updated: 483020
+	465  -  MemoryUsage of job (MB)
+	475496  -  ResidentSetSize of job (KB)
+...
+040 (183296.000.000) 2019-10-31 04:16:23 Started transferring output files
+...
+040 (183296.000.000) 2019-10-31 04:16:23 Finished transferring output files
+...
+005 (183296.000.000) 2019-10-31 04:16:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:14:23, Sys 0 00:00:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:14:23, Sys 0 00:00:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3062517  -  Run Bytes Sent By Job
+	174657040  -  Run Bytes Received By Job
+	3062517  -  Total Bytes Sent By Job
+	174657040  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.00        1         1 
+	   Disk (KB)            : 670197     4194304   4545926 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    465        4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T09:16:22Z.
+...

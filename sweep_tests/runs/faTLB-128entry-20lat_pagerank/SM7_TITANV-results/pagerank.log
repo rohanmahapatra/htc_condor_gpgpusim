@@ -1,0 +1,109 @@
+000 (183032.000.000) 2019-10-30 16:22:51 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183032.000.000) 2019-10-30 16:26:33 Started transferring input files
+	Transferring to host: <128.105.245.82:9618?addrs=128.105.245.82-9618&alias=e282.chtc.wisc.edu&noUDP&sock=starter_23238_05ea_17309>
+...
+040 (183032.000.000) 2019-10-30 16:26:37 Finished transferring input files
+...
+001 (183032.000.000) 2019-10-30 16:26:38 Job executing on host: <128.105.245.82:9618?addrs=128.105.245.82-9618&alias=e282.chtc.wisc.edu&noUDP&sock=startd_36064_7b98_11>
+...
+006 (183032.000.000) 2019-10-30 16:26:49 Image size of job updated: 600
+	1  -  MemoryUsage of job (MB)
+	600  -  ResidentSetSize of job (KB)
+...
+006 (183032.000.000) 2019-10-30 16:31:50 Image size of job updated: 3144976
+	3071  -  MemoryUsage of job (MB)
+	3144436  -  ResidentSetSize of job (KB)
+...
+006 (183032.000.000) 2019-10-30 16:36:49 Image size of job updated: 3145488
+	3072  -  MemoryUsage of job (MB)
+	3145368  -  ResidentSetSize of job (KB)
+...
+006 (183032.000.000) 2019-10-30 16:38:14 Image size of job updated: 3145728
+	3072  -  MemoryUsage of job (MB)
+	3145428  -  ResidentSetSize of job (KB)
+...
+007 (183032.000.000) 2019-10-30 16:38:14 Shadow exception!
+	Error from slot1_7@e282.chtc.wisc.edu: Job has gone over memory limit of 3072 megabytes. Peak usage: 3072 megabytes.
+	0  -  Run Bytes Sent By Job
+	183508608  -  Run Bytes Received By Job
+...
+012 (183032.000.000) 2019-10-30 16:38:14 Job was held.
+	Error from slot1_7@e282.chtc.wisc.edu: Job has gone over memory limit of 3072 megabytes. Peak usage: 3072 megabytes.
+	Code 34 Subcode 0
+...
+009 (183032.000.000) 2019-10-30 17:26:05 Job was aborted.
+	via condor_rm (by user rmahapatra)
+...
+000 (183057.000.000) 2019-10-30 17:26:18 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183057.000.000) 2019-10-30 17:29:05 Started transferring input files
+	Transferring to host: <128.104.101.134:9618?addrs=128.104.101.134-9618+[2607-f388-107c-501-206-f6ff-fe30-b713]-9618&alias=e134.chtc.wisc.edu&noUDP&sock=starter_2684_dee6_13084>
+...
+040 (183057.000.000) 2019-10-30 17:29:07 Finished transferring input files
+...
+001 (183057.000.000) 2019-10-30 17:29:08 Job executing on host: <128.104.101.134:9618?addrs=128.104.101.134-9618+[2607-f388-107c-501-206-f6ff-fe30-b713]-9618&alias=e134.chtc.wisc.edu&noUDP&sock=startd_2216_91f5_3>
+...
+006 (183057.000.000) 2019-10-30 17:29:24 Image size of job updated: 528
+	1  -  MemoryUsage of job (MB)
+	528  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 17:34:23 Image size of job updated: 3887776
+	3789  -  MemoryUsage of job (MB)
+	3879064  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 17:39:24 Image size of job updated: 6274732
+	6128  -  MemoryUsage of job (MB)
+	6274204  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 17:45:18 Image size of job updated: 6274864
+	6128  -  MemoryUsage of job (MB)
+	6274204  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 17:45:57 Image size of job updated: 6275260
+	6128  -  MemoryUsage of job (MB)
+	6274204  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 17:57:58 Image size of job updated: 6275260
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 18:02:27 Image size of job updated: 6275524
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 18:03:38 Image size of job updated: 6275656
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 18:40:43 Image size of job updated: 6275920
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 18:40:46 Image size of job updated: 6276052
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 18:45:09 Image size of job updated: 6276184
+	6128  -  MemoryUsage of job (MB)
+	6274336  -  ResidentSetSize of job (KB)
+...
+006 (183057.000.000) 2019-10-30 19:23:10 Image size of job updated: 6276184
+	6128  -  MemoryUsage of job (MB)
+	6274468  -  ResidentSetSize of job (KB)
+...
+004 (183057.000.000) 2019-10-31 02:00:34 Job was evicted.
+	(0) CPU times
+		Usr 0 00:06:58, Sys 0 00:24:41  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	183508608  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   675885  4194304   5103212 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     6128     6144      6144 
+...
+009 (183057.000.000) 2019-10-31 02:00:34 Job was aborted.
+	via condor_rm (by user rmahapatra)
+...

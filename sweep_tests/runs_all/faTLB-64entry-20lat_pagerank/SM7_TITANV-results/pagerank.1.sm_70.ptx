@@ -1,0 +1,236 @@
+
+
+
+
+
+
+
+
+.version 6.1
+.target sm_70
+.address_size 64
+
+
+
+.visible .entry _Z9pagerank1PiS_S_PfS0_ii(
+.param .u64 _Z9pagerank1PiS_S_PfS0_ii_param_0,
+.param .u64 _Z9pagerank1PiS_S_PfS0_ii_param_1,
+.param .u64 _Z9pagerank1PiS_S_PfS0_ii_param_2,
+.param .u64 _Z9pagerank1PiS_S_PfS0_ii_param_3,
+.param .u64 _Z9pagerank1PiS_S_PfS0_ii_param_4,
+.param .u32 _Z9pagerank1PiS_S_PfS0_ii_param_5,
+.param .u32 _Z9pagerank1PiS_S_PfS0_ii_param_6
+)
+{
+.reg .pred %p<9>;
+.reg .f32 %f<23>;
+.reg .b32 %r<33>;
+.reg .b64 %rd<38>;
+
+
+ld.param.u64 %rd8, [_Z9pagerank1PiS_S_PfS0_ii_param_0];
+ld.param.u64 %rd10, [_Z9pagerank1PiS_S_PfS0_ii_param_1];
+ld.param.u64 %rd9, [_Z9pagerank1PiS_S_PfS0_ii_param_3];
+ld.param.u64 %rd11, [_Z9pagerank1PiS_S_PfS0_ii_param_4];
+ld.param.u32 %r15, [_Z9pagerank1PiS_S_PfS0_ii_param_5];
+ld.param.u32 %r28, [_Z9pagerank1PiS_S_PfS0_ii_param_6];
+cvta.to.global.u64 %rd1, %rd11;
+cvta.to.global.u64 %rd2, %rd10;
+mov.u32 %r17, %ctaid.x;
+mov.u32 %r18, %ntid.x;
+mov.u32 %r19, %tid.x;
+mad.lo.s32 %r1, %r17, %r18, %r19;
+setp.ge.s32	%p1, %r1, %r15;
+@%p1 bra BB0_13;
+
+cvta.to.global.u64 %rd12, %rd8;
+mul.wide.s32 %rd13, %r1, 4;
+add.s64 %rd3, %rd12, %rd13;
+ld.global.u32 %r2, [%rd3];
+add.s32 %r20, %r1, 1;
+setp.ge.s32	%p2, %r20, %r15;
+@%p2 bra BB0_3;
+
+ld.global.u32 %r28, [%rd3+4];
+
+BB0_3:
+setp.le.s32	%p3, %r28, %r2;
+@%p3 bra BB0_13;
+
+cvta.to.global.u64 %rd14, %rd9;
+add.s64 %rd4, %rd14, %rd13;
+sub.s32 %r5, %r28, %r2;
+cvt.rn.f32.s32	%f1, %r5;
+and.b32 %r6, %r5, 3;
+setp.eq.s32	%p4, %r6, 0;
+@%p4 bra BB0_10;
+
+setp.eq.s32	%p5, %r6, 1;
+@%p5 bra BB0_9;
+
+setp.eq.s32	%p6, %r6, 2;
+@%p6 bra BB0_8;
+
+mul.wide.s32 %rd16, %r2, 4;
+add.s64 %rd17, %rd2, %rd16;
+ld.global.u32 %r21, [%rd17];
+mul.wide.s32 %rd18, %r21, 4;
+add.s64 %rd19, %rd1, %rd18;
+ld.global.f32 %f2, [%rd4];
+div.rn.f32 %f3, %f2, %f1;
+atom.global.add.f32 %f4, [%rd19], %f3;
+add.s32 %r2, %r2, 1;
+
+BB0_8:
+mul.wide.s32 %rd20, %r2, 4;
+add.s64 %rd21, %rd2, %rd20;
+ld.global.u32 %r22, [%rd21];
+mul.wide.s32 %rd22, %r22, 4;
+add.s64 %rd23, %rd1, %rd22;
+ld.global.f32 %f5, [%rd4];
+div.rn.f32 %f6, %f5, %f1;
+atom.global.add.f32 %f7, [%rd23], %f6;
+add.s32 %r2, %r2, 1;
+
+BB0_9:
+mul.wide.s32 %rd24, %r2, 4;
+add.s64 %rd25, %rd2, %rd24;
+ld.global.u32 %r23, [%rd25];
+mul.wide.s32 %rd26, %r23, 4;
+add.s64 %rd27, %rd1, %rd26;
+ld.global.f32 %f8, [%rd4];
+div.rn.f32 %f9, %f8, %f1;
+atom.global.add.f32 %f10, [%rd27], %f9;
+add.s32 %r2, %r2, 1;
+
+BB0_10:
+setp.lt.u32	%p7, %r5, 4;
+@%p7 bra BB0_13;
+
+mul.wide.s32 %rd28, %r2, 4;
+add.s64 %rd37, %rd2, %rd28;
+
+BB0_12:
+ld.global.u32 %r24, [%rd37];
+mul.wide.s32 %rd29, %r24, 4;
+add.s64 %rd30, %rd1, %rd29;
+ld.global.f32 %f11, [%rd4];
+div.rn.f32 %f12, %f11, %f1;
+atom.global.add.f32 %f13, [%rd30], %f12;
+ld.global.u32 %r25, [%rd37+4];
+mul.wide.s32 %rd31, %r25, 4;
+add.s64 %rd32, %rd1, %rd31;
+ld.global.f32 %f14, [%rd4];
+div.rn.f32 %f15, %f14, %f1;
+atom.global.add.f32 %f16, [%rd32], %f15;
+ld.global.u32 %r26, [%rd37+8];
+mul.wide.s32 %rd33, %r26, 4;
+add.s64 %rd34, %rd1, %rd33;
+ld.global.f32 %f17, [%rd4];
+div.rn.f32 %f18, %f17, %f1;
+atom.global.add.f32 %f19, [%rd34], %f18;
+ld.global.u32 %r27, [%rd37+12];
+mul.wide.s32 %rd35, %r27, 4;
+add.s64 %rd36, %rd1, %rd35;
+ld.global.f32 %f20, [%rd4];
+div.rn.f32 %f21, %f20, %f1;
+atom.global.add.f32 %f22, [%rd36], %f21;
+add.s64 %rd37, %rd37, 16;
+add.s32 %r2, %r2, 4;
+setp.lt.s32	%p8, %r2, %r28;
+@%p8 bra BB0_12;
+
+BB0_13:
+ret;
+}
+
+
+.visible .entry _Z9pagerank2PiS_S_PfS0_ii(
+.param .u64 _Z9pagerank2PiS_S_PfS0_ii_param_0,
+.param .u64 _Z9pagerank2PiS_S_PfS0_ii_param_1,
+.param .u64 _Z9pagerank2PiS_S_PfS0_ii_param_2,
+.param .u64 _Z9pagerank2PiS_S_PfS0_ii_param_3,
+.param .u64 _Z9pagerank2PiS_S_PfS0_ii_param_4,
+.param .u32 _Z9pagerank2PiS_S_PfS0_ii_param_5,
+.param .u32 _Z9pagerank2PiS_S_PfS0_ii_param_6
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<4>;
+.reg .b32 %r<7>;
+.reg .f64 %fd<6>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd1, [_Z9pagerank2PiS_S_PfS0_ii_param_3];
+ld.param.u64 %rd2, [_Z9pagerank2PiS_S_PfS0_ii_param_4];
+ld.param.u32 %r2, [_Z9pagerank2PiS_S_PfS0_ii_param_5];
+mov.u32 %r3, %ntid.x;
+mov.u32 %r4, %ctaid.x;
+mov.u32 %r5, %tid.x;
+mad.lo.s32 %r1, %r4, %r3, %r5;
+setp.ge.s32	%p1, %r1, %r2;
+@%p1 bra BB1_2;
+
+cvta.to.global.u64 %rd3, %rd2;
+cvt.rn.f32.s32	%f1, %r2;
+cvt.f64.f32	%fd1, %f1;
+mov.f64 %fd2, 0d3FC3333333333333;
+div.rn.f64 %fd3, %fd2, %fd1;
+mul.wide.s32 %rd4, %r1, 4;
+add.s64 %rd5, %rd3, %rd4;
+ld.global.f32 %f2, [%rd5];
+cvt.f64.f32	%fd4, %f2;
+fma.rn.f64 %fd5, %fd4, 0d3FEB333333333333, %fd3;
+cvt.rn.f32.f64	%f3, %fd5;
+cvta.to.global.u64 %rd6, %rd1;
+add.s64 %rd7, %rd6, %rd4;
+st.global.f32 [%rd7], %f3;
+mov.u32 %r6, 0;
+st.global.u32 [%rd5], %r6;
+
+BB1_2:
+ret;
+}
+
+
+.visible .entry _Z9inibufferPiPfS0_ii(
+.param .u64 _Z9inibufferPiPfS0_ii_param_0,
+.param .u64 _Z9inibufferPiPfS0_ii_param_1,
+.param .u64 _Z9inibufferPiPfS0_ii_param_2,
+.param .u32 _Z9inibufferPiPfS0_ii_param_3,
+.param .u32 _Z9inibufferPiPfS0_ii_param_4
+)
+{
+.reg .pred %p<2>;
+.reg .f32 %f<3>;
+.reg .b32 %r<7>;
+.reg .b64 %rd<8>;
+
+
+ld.param.u64 %rd1, [_Z9inibufferPiPfS0_ii_param_1];
+ld.param.u64 %rd2, [_Z9inibufferPiPfS0_ii_param_2];
+ld.param.u32 %r2, [_Z9inibufferPiPfS0_ii_param_3];
+mov.u32 %r3, %ntid.x;
+mov.u32 %r4, %ctaid.x;
+mov.u32 %r5, %tid.x;
+mad.lo.s32 %r1, %r4, %r3, %r5;
+setp.ge.s32	%p1, %r1, %r2;
+@%p1 bra BB2_2;
+
+cvta.to.global.u64 %rd3, %rd1;
+cvt.rn.f32.s32	%f1, %r2;
+rcp.rn.f32 %f2, %f1;
+mul.wide.s32 %rd4, %r1, 4;
+add.s64 %rd5, %rd3, %rd4;
+st.global.f32 [%rd5], %f2;
+cvta.to.global.u64 %rd6, %rd2;
+add.s64 %rd7, %rd6, %rd4;
+mov.u32 %r6, 0;
+st.global.u32 [%rd7], %r6;
+
+BB2_2:
+ret;
+}
+
+

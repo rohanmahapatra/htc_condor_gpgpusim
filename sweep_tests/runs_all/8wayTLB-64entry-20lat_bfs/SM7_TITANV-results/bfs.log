@@ -1,0 +1,59 @@
+000 (183299.000.000) 2019-10-31 02:59:07 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_2092_8437_3>
+...
+040 (183299.000.000) 2019-10-31 03:05:32 Started transferring input files
+	Transferring to host: <128.104.100.121:9618?addrs=128.104.100.121-9618+[2607-f388-107c-501-e2db-55ff-fefc-b60c]-9618&alias=e0042.chtc.wisc.edu&noUDP&sock=starter_5252_424f_1262>
+...
+040 (183299.000.000) 2019-10-31 03:05:35 Finished transferring input files
+...
+001 (183299.000.000) 2019-10-31 03:05:36 Job executing on host: <128.104.100.121:9618?addrs=128.104.100.121-9618+[2607-f388-107c-501-e2db-55ff-fefc-b60c]-9618&alias=e0042.chtc.wisc.edu&noUDP&sock=startd_4875_6c49_3>
+...
+006 (183299.000.000) 2019-10-31 03:05:45 Image size of job updated: 219344
+	206  -  MemoryUsage of job (MB)
+	210368  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:10:46 Image size of job updated: 416500
+	398  -  MemoryUsage of job (MB)
+	407524  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:15:46 Image size of job updated: 437092
+	419  -  MemoryUsage of job (MB)
+	428116  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:20:46 Image size of job updated: 448048
+	429  -  MemoryUsage of job (MB)
+	439072  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:30:48 Image size of job updated: 469564
+	450  -  MemoryUsage of job (MB)
+	460588  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:35:48 Image size of job updated: 482368
+	463  -  MemoryUsage of job (MB)
+	473392  -  ResidentSetSize of job (KB)
+...
+006 (183299.000.000) 2019-10-31 03:40:49 Image size of job updated: 485272
+	466  -  MemoryUsage of job (MB)
+	476296  -  ResidentSetSize of job (KB)
+...
+040 (183299.000.000) 2019-10-31 04:02:05 Started transferring output files
+...
+040 (183299.000.000) 2019-10-31 04:02:05 Finished transferring output files
+...
+005 (183299.000.000) 2019-10-31 04:02:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:53:37, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:53:37, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3062537  -  Run Bytes Sent By Job
+	174657040  -  Run Bytes Received By Job
+	3062537  -  Total Bytes Sent By Job
+	174657040  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.90        1         1 
+	   Disk (KB)            : 670196     4194304   4502291 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    466        4096      4096 
+
+	Job terminated of its own accord at 2019-10-31T09:02:05Z.
+...
